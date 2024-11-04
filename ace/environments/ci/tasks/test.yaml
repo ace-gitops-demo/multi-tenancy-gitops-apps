@@ -9,26 +9,6 @@ metadata:
   uid: 2ebad32e-303d-4c59-9199-665589a78082
   creationTimestamp: '2024-11-04T18:59:21Z'
   generation: 3
-  managedFields:
-    - apiVersion: tekton.dev/v1beta1
-      fieldsType: FieldsV1
-      fieldsV1:
-        'f:metadata':
-          'f:annotations':
-            .: {}
-            'f:kubectl.kubernetes.io/last-applied-configuration': {}
-          'f:labels':
-            .: {}
-            'f:argo.cntk/instance': {}
-        'f:spec':
-          .: {}
-          'f:params': {}
-          'f:results': {}
-          'f:steps': {}
-          'f:workspaces': {}
-      manager: argocd-controller
-      operation: Update
-      time: '2024-11-04T19:58:28Z'
   namespace: ci
   labels:
     argo.cntk/instance: apps-ace-rest-ci-1
