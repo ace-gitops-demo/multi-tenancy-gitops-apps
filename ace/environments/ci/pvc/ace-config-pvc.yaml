@@ -3,8 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: ace-config-pvc
 spec:
-  storageClassName: ibmc-vpc-block-10iops-tier
-
+  storageClassName: ibmc-file-gold-gid
   accessModes:
   - ReadWriteMany
   resources:
