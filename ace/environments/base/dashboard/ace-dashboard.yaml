@@ -10,5 +10,8 @@ spec:
   useCommonServices: true
   version: 12.0
   storage:
-    type: ephemeral
+    size: 5Gi
+    type: persistent-claim
+    class: ocs-external-storagecluster-cephfs
+  displayMode: IntegrationRuntimes
   replicas: 1
