@@ -3,7 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: ace-config-pvc
 spec:
-  storageClassName: ibmc-vpc-block-10iops-tier
+  storageClassName: ocs-external-storagecluster-ceph-rbd
   accessModes:
   - ReadWriteOnce
   resources:
