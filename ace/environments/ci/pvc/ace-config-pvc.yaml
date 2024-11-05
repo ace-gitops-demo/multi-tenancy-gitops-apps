@@ -3,7 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: ace-config-pvc
 spec:
-  storageClassName: ocs-external-storagecluster-ceph-rbd
+  storageClassName: ocs-external-storagecluster-cephfs
   accessModes:
   - ReadWriteMany
   resources:
