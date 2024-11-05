@@ -8,7 +8,7 @@ spec:
     license: L-XRNH-47FJAW
     use: CloudPakForIntegrationNonProduction
   useCommonServices: true
-  version: 12.0.12.5-r1
+  version: 12.0
   storage:
     type: ephemeral
   replicas: 1
