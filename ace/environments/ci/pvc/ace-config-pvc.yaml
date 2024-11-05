@@ -5,8 +5,8 @@ metadata:
 spec:
   storageClassName: ocs-external-storagecluster-ceph-rbd
   accessModes:
-  - ReadWriteOnce
+  - ReadWriteMany
   resources:
     requests:
       storage: 1Gi
-  volumeMode: Block
+  volumeMode: Filesystem
